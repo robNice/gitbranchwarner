@@ -2,7 +2,7 @@
   <id>de.rc.branch-warner</id>
   <name>Branch Warner</name>
   <vendor email="rob_phpstorm@cornice.de">robNice</vendor>
-  <version>1.5.0</version>
+  <version>1.0.0</version>
   <description>Marks the editor with a badge when the current Git branch matches a warning pattern.</description>
 
   <depends>com.intellij.modules.platform</depends>
