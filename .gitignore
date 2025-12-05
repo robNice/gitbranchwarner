@@ -4,3 +4,9 @@
 /gradle.properties
 /settings.gradle.kts
 /wrapper.gradle
+.idea/
+*.iml
+out/
+.gradle/
+.DS_Store
+Thumbs.db
