@@ -36,7 +36,7 @@ Instead of relying on the branch name in the status bar, the plugin displays a c
 
 ### 1. Configure the warning branches
 
-1. Open `Settings` → `Tools` → **Branch Warner** (or search for “Branch Warner”).
+1. Open `Settings` → `Other Settings` → **Branch Warner** (or search for “Branch Warner”).
 2. Fields:
     - **Warn branches (comma separated)**  
       Comma-separated list of branch names, e.g.:  
