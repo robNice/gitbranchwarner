@@ -1,0 +1,17 @@
+<idea-plugin>
+  <id>de.rc.branch-warner</id>
+  <name>Branch Warner</name>
+  <vendor email="rob_phpstorm@cornice.de">robNice</vendor>
+  <description>Marks the editor with a badge when the current Git branch matches a warning pattern.</description>
+
+  <depends>com.intellij.modules.platform</depends>
+  <depends optional="true" config-file="git4idea.xml">Git4Idea</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <editorFactoryListener implementation="de.rc.branchwarner.EditorOverlayInstaller"/>
+    <projectConfigurable instance="de.rc.branchwarner.LiveBadgeSettingsConfigurable"
+                         id="de.rc.branchwarner.settings"
+                         displayName="Branch Warner"/>
+    <postStartupActivity implementation="de.rc.branchwarner.Startup"/>
+  </extensions>
+</idea-plugin>
