@@ -43,9 +43,9 @@ public final class LiveBadgeSettingsConfigurable implements SearchableConfigurab
     }
 
     @Override
-	public String getDisplayName() {
-		return "Branch Warner";
-	}
+	public @NlsContexts.ConfigurableName String getDisplayName() {
+        return "Branch Warner";
+    }
 
     @Override
     public @Nullable JComponent createComponent() {
