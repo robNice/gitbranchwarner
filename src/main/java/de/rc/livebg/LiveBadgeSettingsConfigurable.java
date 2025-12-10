@@ -43,7 +43,7 @@ public final class LiveBadgeSettingsConfigurable implements SearchableConfigurab
     }
 
     @Override
-	public @NlsContexts.ConfigurableName String getDisplayName() {
+	public @NotNull String getDisplayName() {
         return "Branch Warner";
     }
 
