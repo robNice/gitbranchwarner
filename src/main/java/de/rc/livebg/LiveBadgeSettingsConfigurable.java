@@ -99,7 +99,10 @@ public final class LiveBadgeSettingsConfigurable implements SearchableConfigurab
         }
 
         reset();
-        return panel;
+
+        JPanel wrapper = new JPanel(new BorderLayout());
+        wrapper.add(panel, BorderLayout.NORTH);
+        return wrapper;
     }
 
     @Override
